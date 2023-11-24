@@ -2,7 +2,6 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 const shortUrl = require('./models/shortUrl')
-const shortUrl = require('./models/shortUrl')
 
 mongoose.connect(process.env.MONGODB_URI,{
     useNewUrlParser: true, useUnifiedTopology: true
